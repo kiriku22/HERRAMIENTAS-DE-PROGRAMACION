@@ -1,0 +1,72 @@
+/* estilos.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+
+}
+
+h2 {
+    color: #333;
+    padding: auto;
+}
+
+form {
+    max-width: 40 vw;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 5vw;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container{
+
+    max-width: 80vw;
+
+
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 70vw;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    width: 35vw;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    width: 35vw;
+}
+input[type="submit"].boton-azul {
+    background-color: #3498db; /* Azul */
+    color: #fff; /* Texto blanco */
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 400px;
+    width: 35vw;
+}
+
+input[type="submit"].boton-azul:hover {
+    background-color: #2980b9; /* Azul más oscuro al pasar el ratón */
+    width: 35vw;
+}
