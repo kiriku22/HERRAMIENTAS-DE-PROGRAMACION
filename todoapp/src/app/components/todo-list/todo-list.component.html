@@ -1,0 +1,32 @@
+<p>todo-list works!</p>
+<div class= "container border rounded">
+    <div class="title-container">
+        <h1>Lista de tareas</h1>
+    </div>
+    <table class="table table stripted">
+        <thead>
+        <tr>
+         <th>Titulo</th>
+         <th>Acciones</th>
+
+        </tr>
+
+        </thead>
+        <tbody>
+            <tr *ngFor="let todo of todos">
+                <td>{{ todo.title }}</td>
+                <td>
+                  <button class="btn btn-danger btn-sm" (click)="deleteTodo(todo.id)">Eliminar</button>
+                </td>
+              </tr>
+
+
+        </tbody>
+
+
+
+    </table>
+
+
+
+</div>

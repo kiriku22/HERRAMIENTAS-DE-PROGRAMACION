@@ -1,0 +1,15 @@
+<!-- add-todo.component.html -->
+<div class="container border rounded">
+    <div class="title-container align-items-center">
+      <h2 class="text-center">Agregar Tarea</h2>
+    </div>
+  
+    <form (ngSubmit)="addTodo()">
+      <div class="form-group">
+        <label for="todoTitle">Título:</label>
+        <input type="text" class="form-control" id="todoTitle" [(ngModel)]="newTodo.title" name="title">
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary mb-4">Agregar</button>
+    </form>
+  </div>
