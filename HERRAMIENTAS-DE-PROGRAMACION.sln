@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FakeStoreApi", "FakeStoreApi", "{63FBE579-C8F5-4A86-AC67-6D486B0BD7A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeStoreApi", "FakeStoreApi\FakeStoreApi\FakeStoreApi.csproj", "{50DEA2AF-9C40-41B9-A349-7B71B5BF29CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50DEA2AF-9C40-41B9-A349-7B71B5BF29CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DEA2AF-9C40-41B9-A349-7B71B5BF29CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DEA2AF-9C40-41B9-A349-7B71B5BF29CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DEA2AF-9C40-41B9-A349-7B71B5BF29CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50DEA2AF-9C40-41B9-A349-7B71B5BF29CD} = {63FBE579-C8F5-4A86-AC67-6D486B0BD7A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0158B690-266D-4B16-8637-4A7BD6C18474}
+	EndGlobalSection
+EndGlobal
